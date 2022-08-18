@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('source') {
             steps {
-               git 'https://github.com/MahnoorAli02/docker-nginx-demo.git'
+               git 'https://github.com/MahnoorAli02/jenkins-ecr.git'
             }
             
         }
